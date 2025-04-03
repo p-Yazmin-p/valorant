@@ -30,7 +30,8 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1 class="imgcarga"> <ins>Valorant</ins></h1>
+							<h1 class="imgcarga"> <ins>Valorant</ins></h1><ol>
+  
 							<p>Es un shooter táctico en primera persona desarrollado y publicado por <acronym title="Riot Games">RG</acronym>
 								el juego combina mecánicas de disparo precisas con habilidades únicas de personajes llamados Agentes, cada uno con 
 								su propio conjunto de poderes estratégicos.</p>
@@ -46,6 +47,21 @@
 										<video src= "C:\Users\korte\Downloads\valopaaaag\cinematica.mp4" width="600"
 									height="300" controls <\div>
 								</center>
+								<li>
+									<dl>
+									  <dt>
+										<dt>Las relas oficiales de sus torneos</dt>
+										<dd>
+										  <object data="data.pdf" type="application/pdf">
+											<p> <a href="VC.pdf">Valorant Champions Reglas</a></p>
+											<figcaption>
+											  <p>Además tambien incluye los Términos de Servicio son las condiciones bajo las cuales Riot Games ofrece acceso a nuestros juegos, aplicaciones, 
+												sitios web y otros servicios. En resumen, son las reglas que ambas partes se comprometen a seguir cuando utilizan
+												 nuestros productos.</p>
+											</figcaption>
+										  </object>
+										</dd>
+									  </dt>
 							
 						</div>
 					</section>
@@ -59,16 +75,27 @@
 
 								<div class="inner">
 									<center><h2><dfn>AGENTES</dfn></h2>
-									<p>Existen categorias en los personajes, como:
-							<pre>los <a href="C:\Users\korte\Downloads\valopaaaag\controladores.html">-controladores</a>,
-								<a href="C:\Users\korte\Downloads\valopaaaag\iniciadores.html">-inciadores</a>,
-								<a href="C:\Users\korte\Downloads\valopaaaag\centinela.html">-centinelas	
-							</a> y <a href="C:\Users\korte\Downloads\valopaaaag\duelistas.html">-duelistas</a>.</center>
-									</p>
-										<center><p>Para una mejor prespectiva de los agentes dar clic en el siguiente link,
-											sólo mostrare 9 de los que mas me gusta usar.
-										</pre></center></p>
-										
+								<ol>
+									<il>
+										<dl>
+										<dt>Existen categorias en los personajes:</dt>
+										<dd>
+										  <ul>
+											<li>los <a href="C:\Users\korte\Downloads\valopaaaag\controladores.html">-controladores</a></li>
+											<li><a href="C:\Users\korte\Downloads\valopaaaag\iniciadores.html">-inciadores</a></li>
+											<li><a href="C:\Users\korte\Downloads\valopaaaag\centinela.html">-centinelas</a></li>
+											<li><a href="C:\Users\korte\Downloads\valopaaaag\duelistas.html">-duelistas</a>.</center></li>
+										  </ul>
+										</dd>
+									  </dl>
+									</il>
+								</ol>
+									
+								<pre><center><p>Para una mejor prespectiva de los agentes dar clic 
+en el siguiente link sólo mostrare 9 de los 
+que mas me gusta usar.
+								</pre></center></p>
+
 									<ul class="actions"><b>
 										<li><a href="C:\Users\korte\Downloads\valopaaaag\agentes_v.html" class="button">Mis agentes</a></li></b>
 									</ul>
@@ -151,28 +178,35 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Contacto</h2>
-							<p>¡En caso de tener alguna duda o aclaracion cxontactanos a traves de un correo!</p>
+							<p>¡En caso de tener alguna duda o aclaración contactanos a traves de un correo!</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Nombre</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Gmail</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message"><abbr>Mensaje</abbr></label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Enviar</a></li>
-										</ul>
-									</form>
+									<form action="/submit-form" method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+										<label for="username">Nombre:</label>
+										<input type="text" id="username" name="username" size="30" maxlength="50" /><br />
+									  
+										<label for="correo">Correo:</label>
+										<input type="password" id="correo" name="correo" /><br />
+									  
+										<label for="profile_pic">Foto de perfil:</label>
+										<input type="file" id="profile_pic" name="profile_pic" accept="image/*" /><br />
+									    
+									  
+										<label for="comen">Comentario:</label><br />
+										<textarea id="comen" name="comen" rows="4" cols="50">¡Cuentanos!</textarea><br />
+									  
+										<label for="pais">País:</label>
+										<select id="pais" name="pais">
+										  <option value="us">Estados Unidos</option>
+										  <option value="ca">Canadá</option>
+										  <option value="mx" selected>México</option>
+										  <option value="ch">China</option>
+										</select><br />
+									  
+										<center> <embed src="Wallval.pdf" type="application/pdf" width="500" height="300" /></center> <br />
+									  
+										<input type="submit" value="Enviar" />
+									  </form>
 								</section>
 								<section>
 										
